@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Mobile + laptop responsive -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta name="theme-color" content="#100b14">
+  <meta
+    name="description"
+    content="K & K — Our First Anniversary. One year. One story. Still you."
+  >
+
+  <title>K & K — Our First Anniversary</title>
+
+  <!-- Premium typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================================
+       GLOBAL BACKGROUND
+       ========================================================= -->
+
+  <div id="appBackground" class="app-background" aria-hidden="true">
+
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+
+    <div id="starField" class="star-field"></div>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+  </div>
+
+
+  <!-- =========================================================
+       AUDIO
+       One audio element only.
+       Put music.mp3 in the same folder.
+       ========================================================= -->
+
+  <audio
+    id="backgroundMusic"
+    preload="auto"
+    loop
+    playsinline
+  >
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <!-- =========================================================
+       MAIN APPLICATION
+       ========================================================= -->
+
+  <main id="app" class="app">
+
+    <!-- =======================================================
+         PAGE 1 — THE BEGINNING
+         ======================================================= -->
+
+    <section
+      id="page-1"
+      class="page page-opening active"
+      data-page="1"
+      aria-label="The Beginning"
+    >
+
+      <div class="page-background opening-background"></div>
+
+      <div class="shooting-star shooting-star-one"></div>
+      <div class="shooting-star shooting-star-two"></div>
+
+      <div class="opening-content cinematic-content">
+
+        <div class="opening-stars" aria-hidden="true">
+
+          <span class="special-star star-k-one">K</span>
+          <span class="special-star star-k-two">K</span>
+
+        </div>
+
+        <div class="opening-light" aria-hidden="true"></div>
+
+        <p class="eyebrow reveal-item">
+          K &amp; K
+        </p>
+
+        <h1 class="opening-title reveal-item">
+          The Beginning
+        </h1>
+
+        <p class="date-text reveal-item">
+          11 <span>•</span> 01 <span>•</span> 2027
+        </p>
+
+        <div class="opening-divider reveal-item">
+          <span></span>
+          <i>✦</i>
+          <span></span>
+        </div>
+
+        <p class="opening-line reveal-item">
+          A year ago, we started writing a story…
+          and somehow, one year later, it’s still you.
+        </p>
+
+        <p class="opening-subline reveal-item">
+          Come, let me take you back to where it all began.
+        </p>
+
+        <button
+          id="beginStoryBtn"
+          class="primary-button reveal-item"
+          type="button"
+        >
+          <span>Begin Our Story</span>
+          <strong>→</strong>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 2 — OUR UNIVERSE
+         ======================================================= -->
+
+    <section
+      id="page-2"
+      class="page"
+      data-page="2"
+      aria-label="Our Universe"
+    >
+
+      <div class="page-background universe-background"></div>
+
+      <div class="universe-depth" aria-hidden="true">
+        <div class="nebula nebula-one"></div>
+        <div class="nebula nebula-two"></div>
+        <div class="nebula nebula-three"></div>
+      </div>
+
+      <div class="cinematic-content universe-content">
+
+        <div class="special-stars-pair" aria-hidden="true">
+          <span class="universe-star universe-k-one">K</span>
+          <span class="universe-star universe-k-two">K</span>
+          <div class="star-connection"></div>
+        </div>
+
+        <p class="chapter-label">
+          02 / 12
+        </p>
+
+        <p class="eyebrow">
+          K &amp; K
+        </p>
+
+        <h2>
+          Our Universe
+        </h2>
+
+        <p class="section-subtitle">
+          Two people. One little universe.
+        </p>
+
+        <div class="orbit-system">
+
+          <div class="orbit orbit-large"></div>
+          <div class="orbit orbit-small"></div>
+
+          <span class="orbit-point point-one">
+            <i></i>
+            <small>First Meeting</small>
+          </span>
+
+          <span class="orbit-point point-two">
+            <i></i>
+            <small>First Conversation</small>
+          </span>
+
+          <span class="orbit-point point-three">
+            <i></i>
+            <small>11 January</small>
+          </span>
+
+          <span class="orbit-point point-four">
+            <i></i>
+            <small>Today</small>
+          </span>
+
+          <div class="orbit-center">
+            <span>K</span>
+            <b>&amp;</b>
+            <span>K</span>
+          </div>
+
+        </div>
+
+        <div class="discovery-grid">
+
+          <button
+            class="discovery-card"
+            type="button"
+            data-message="Every universe has a beginning."
+          >
+            <span class="discovery-icon">✦</span>
+            <strong>The Beginning</strong>
+            <small>Every universe has a beginning.</small>
+          </button>
+
+          <button
+            class="discovery-card"
+            type="button"
+            data-message="Some stories take their time before they finally become ours."
+          >
+            <span class="discovery-icon">✧</span>
+            <strong>A Little Secret</strong>
+            <small>Some stories take their time.</small>
+          </button>
+
+          <button
+            class="discovery-card"
+            type="button"
+            data-message="Somewhere between all the ordinary days, you became my favourite part of them."
+          >
+            <span class="discovery-icon">♡</span>
+            <strong>For You</strong>
+            <small>My favourite part of ordinary days.</small>
+          </button>
+
+        </div>
+
+        <p class="universe-reveal">
+          Out of all the stars in this endless universe…
+          somehow, I found you.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 3 — OUR BEGINNING
+         ======================================================= -->
+
+    <section
+      id="page-3"
+      class="page"
+      data-page="3"
+      aria-label="Our Beginning"
+    >
+
+      <div class="page-background beginning-background"></div>
+
+      <div class="warm-particles" aria-hidden="true"></div>
+
+      <div class="cinematic-content beginning-content">
+
+        <p class="chapter-label">
+          03 / 12
+        </p>
+
+        <p class="eyebrow">
+          OUR BEGINNING
+        </p>
+
+        <h2>
+          Every story has a moment<br>
+          before it becomes a story.
+        </h2>
+
+        <div class="story-timeline">
+
+          <article class="story-scene">
+
+            <span class="scene-number">
+              01
+            </span>
+
+            <p class="scene-date">
+              4 YEARS AGO
+            </p>
+
+            <h3>
+              The First Time I Saw You
+            </h3>
+
+            <p>
+              It was her birthday, and I saw you for the first time.
+              I didn't know then that one day, you would become
+              such an important part of my life.
+            </p>
+
+          </article>
+
+
+          <article class="story-scene">
+
+            <span class="scene-number">
+              02
+            </span>
+
+            <p class="scene-date">
+              THEN
+            </p>
+
+            <h3>
+              Life Took Us Apart
+            </h3>
+
+            <p>
+              Something came between us, and our paths went
+              in different directions.
+            </p>
+
+            <p class="scene-emphasis">
+              But some stories aren't finished just because
+              they go quiet.
+            </p>
+
+          </article>
+
+
+          <article class="story-scene">
+
+            <span class="scene-number">
+              03
+            </span>
+
+            <p class="scene-date">
+              2 YEARS LATER
+            </p>
+
+            <h3>
+              Somehow, We Found Our Way Back
+            </h3>
+
+            <p>
+              Life gave our story another chance.
+              And this time, something felt different.
+            </p>
+
+          </article>
+
+
+          <article class="story-scene confession-scene">
+
+            <span class="scene-number">
+              04
+            </span>
+
+            <p class="scene-date">
+              11 JANUARY
+              <span>•</span>
+              1:00 AM
+            </p>
+
+            <div class="chat-window">
+
+              <div class="chat-message chat-right">
+                Do you like someone?
+              </div>
+
+              <div class="chat-message chat-left">
+                Abhi tak nahi samjha tu?
+              </div>
+
+              <div class="chat-message chat-left dramatic-message">
+                The boy I've loved since 9th grade…
+              </div>
+
+              <div class="chat-message chat-left final-message">
+                …is you.
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <article class="story-scene confession-time">
+
+            <p class="scene-date">
+              1:33 AM
+            </p>
+
+            <div class="quote-box">
+
+              <span class="quote-mark">
+                “
+              </span>
+
+              <p>
+                I love you tooooooo
+                sooooooo sooooooo sooooooo
+                mucccccchhhhhhh
+              </p>
+
+              <span class="quote-mark quote-end">
+                ”
+              </span>
+
+            </div>
+
+          </article>
+
+
+          <article class="story-scene final-beginning-scene">
+
+            <p class="scene-date">
+              11 • 01 • 2026
+            </p>
+
+            <h3>
+              The Day We Became Us.
+            </h3>
+
+            <p>
+              Maybe we were always meant to find our way
+              back to each other.
+            </p>
+
+            <div class="timeline-line">
+              <span></span>
+              <i>♥</i>
+              <span></span>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 4 — OUR JOURNEY
+         ======================================================= -->
+
+    <section
+      id="page-4"
+      class="page"
+      data-page="4"
+      aria-label="Our Journey"
+    >
+
+      <div class="page-background journey-background"></div>
+
+      <div class="journey-particles" aria-hidden="true"></div>
+
+      <div class="cinematic-content journey-content">
+
+        <p class="chapter-label">
+          04 / 12
+        </p>
+
+        <p class="eyebrow">
+          OUR JOURNEY
+        </p>
+
+        <h2>
+          It wasn't a perfect year.
+        </h2>
+
+        <p class="section-subtitle">
+          It was our year.
+        </p>
+
+
+        <div class="journey-track">
+
+          <article class="journey-card">
+
+            <span class="journey-date">
+              11 JAN 2026
+            </span>
+
+            <div class="journey-icon">
+              ✦
+            </div>
+
+            <h3>
+              The Start
+            </h3>
+
+            <p>
+              We started this year with something
+              that neither of us knew how much it
+              would grow.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card featured">
+
+            <span class="journey-date">
+              26 JAN
+            </span>
+
+            <div class="journey-icon">
+              ♡
+            </div>
+
+            <h3>
+              The First Hug
+            </h3>
+
+            <p>
+              A difficult day.
+              A moment when you were there for me.
+              And the first hug that made me realise
+              I had chosen the right person.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card">
+
+            <span class="journey-date">
+              OUR LATE NIGHTS
+            </span>
+
+            <div class="journey-icon">
+              ☾
+            </div>
+
+            <h3>
+              When Everyone Slept
+            </h3>
+
+            <p>
+              Late-night conversations,
+              long video calls,
+              and countless moments where
+              neither of us wanted the conversation to end.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card">
+
+            <span class="journey-date">
+              THE SCARED DAYS
+            </span>
+
+            <div class="journey-icon">
+              ✧
+            </div>
+
+            <h3>
+              Realising How Much I Cared
+            </h3>
+
+            <p>
+              There were days when I didn't know where you were,
+              and the fear of not knowing made me realise
+              just how deeply I cared.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card">
+
+            <span class="journey-date">
+              THE VILLAGE NIGHTS
+            </span>
+
+            <div class="journey-icon">
+              ★
+            </div>
+
+            <h3>
+              Secret Little Conversations
+            </h3>
+
+            <p>
+              When everyone else was asleep,
+              we still found little moments to talk
+              and stay close.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card">
+
+            <span class="journey-date">
+              THE HARD PHASE
+            </span>
+
+            <div class="journey-icon">
+              ∞
+            </div>
+
+            <h3>
+              We Kept Finding Our Way Back
+            </h3>
+
+            <p>
+              Fights.
+              Tears.
+              Distance.
+              Difficult circumstances.
+              And still, we kept trying to understand each other.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card featured">
+
+            <span class="journey-date">
+              08 AUG
+            </span>
+
+            <div class="journey-icon">
+              ✨
+            </div>
+
+            <h3>
+              Your Birthday
+            </h3>
+
+            <p>
+              Meeting again after a long time,
+              hugging, laughing, taking pictures,
+              and simply having a beautiful day together.
+            </p>
+
+          </article>
+
+
+          <article class="journey-card final-journey-card">
+
+            <span class="journey-date">
+              11 JAN 2027
+            </span>
+
+            <div class="journey-icon">
+              ♥
+            </div>
+
+            <h3>
+              One Year
+            </h3>
+
+            <p>
+              We laughed.
+              We fought.
+              We missed each other.
+              We found our way back.
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <div class="journey-ending">
+
+          <p>
+            And through every version of us…
+          </p>
+
+          <strong>
+            We never stopped choosing each other.
+          </strong>
+
+          <span>
+            11 JAN 2026 → 11 JAN 2027
+          </span>
+
+          <b>
+            ONE YEAR OF US.
+          </b>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 5 — 365 DAYS
+         ======================================================= -->
+
+    <section
+      id="page-5"
+      class="page"
+      data-page="5"
+      aria-label="365 Days"
+    >
+
+      <div class="page-background days-background"></div>
+
+      <div
+        id="dayLights"
+        class="day-lights"
+        aria-hidden="true"
+      ></div>
+
+      <div class="cinematic-content days-content">
+
+        <p class="chapter-label">
+          05 / 12
+        </p>
+
+        <p class="eyebrow">
+          365 DAYS
+        </p>
+
+        <h2>
+          A whole year of becoming us.
+        </h2>
+
+
+        <div class="days-counter">
+
+          <span id="dayCounter">
+            001
+          </span>
+
+          <small>
+            DAYS
+          </small>
+
+        </div>
+
+
+        <div class="days-orbit" aria-hidden="true">
+
+          <div class="days-orbit-ring ring-one"></div>
+          <div class="days-orbit-ring ring-two"></div>
+          <div class="days-orbit-ring ring-three"></div>
+
+          <div class="days-orbit-center">
+            <span>365</span>
+            <small>little pieces of us</small>
+          </div>
+
+        </div>
+
+
+        <div class="days-text">
+
+          <p>
+            A year wasn't just 365 days.
+          </p>
+
+          <div class="days-list">
+
+            <span>365 mornings.</span>
+            <span>365 nights.</span>
+            <span>Hundreds of conversations.</span>
+            <span>Countless “I miss yous.”</span>
+            <span>Arguments.</span>
+            <span>Laughter.</span>
+            <span>Silence.</span>
+            <span>Forgiveness.</span>
+            <span>And countless little reasons to stay.</span>
+
+          </div>
+
+        </div>
+
+
+        <div class="days-final-message">
+
+          <p>
+            If I could keep one thing from this entire year…
+          </p>
+
+          <strong>
+            It would be the feeling of having you beside me
+            through all of it.
+          </strong>
+
+        </div>
+
+
+        <div class="year-stats">
+
+          <div>
+            <strong>365</strong>
+            <span>Days</span>
+          </div>
+
+          <div>
+            <strong>12</strong>
+            <span>Months</span>
+          </div>
+
+          <div>
+            <strong>1</strong>
+            <span>Story</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+        <!-- =======================================================
+         PAGE 6 — LITTLE THINGS
+         ======================================================= -->
+
+    <section
+      id="page-6"
+      class="page"
+      data-page="6"
+      aria-label="Little Things"
+    >
+
+      <div class="page-background little-things-background"></div>
+
+      <div class="heart-particles" aria-hidden="true"></div>
+
+      <div class="cinematic-content little-things-content">
+
+        <p class="chapter-label">
+          06 / 12
+        </p>
+
+        <p class="eyebrow">
+          LITTLE THINGS
+        </p>
+
+        <h2>
+          Maybe the little things<br>
+          were never little.
+        </h2>
+
+        <p class="section-subtitle">
+          You know what I remember most?
+          Not just the big moments.
+          The little things.
+        </p>
+
+
+        <div class="memory-garden">
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="The kind of conversations where neither of us noticed how late it had become."
+          >
+            <span>☾</span>
+            <strong>Late-night talks</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Those moments when staying a little longer felt more important than sleep."
+          >
+            <span>★</span>
+            <strong>Staying up</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Random laughter that started from absolutely nothing."
+          >
+            <span>✦</span>
+            <strong>Random laughter</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Three words that somehow never stopped feeling special."
+          >
+            <span>♥</span>
+            <strong>I love you</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Missing each other even after we had just talked."
+          >
+            <span>♡</span>
+            <strong>Missing you</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Finding our way back after the difficult conversations."
+          >
+            <span>∞</span>
+            <strong>Making up</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Long calls that somehow made ordinary days feel special."
+          >
+            <span>⌁</span>
+            <strong>Long calls</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="All those random little conversations that became part of our everyday life."
+          >
+            <span>✧</span>
+            <strong>Little conversations</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Being there for each other when the day wasn't easy."
+          >
+            <span>☼</span>
+            <strong>Difficult days</strong>
+          </button>
+
+          <button
+            class="memory-card"
+            type="button"
+            data-message="Celebrating the days that mattered to us."
+          >
+            <span>✨</span>
+            <strong>Special days</strong>
+          </button>
+
+        </div>
+
+
+        <div class="things-i-love">
+
+          <p class="mini-label">
+            THINGS I LOVE ABOUT US
+          </p>
+
+          <div class="love-points">
+
+            <p>
+              You make ordinary conversations feel special.
+            </p>
+
+            <p>
+              You became someone I can miss even after
+              talking to you all day.
+            </p>
+
+            <p>
+              We can hurt, forgive, laugh,
+              and still find our way back.
+            </p>
+
+            <p>
+              Somehow, you became part of my everyday life.
+            </p>
+
+            <p>
+              And that's what makes “us” feel like home.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <button
+          id="secretHeart"
+          class="secret-heart"
+          type="button"
+          aria-label="Open secret message"
+        >
+          <span>♥</span>
+        </button>
+
+        <p
+          id="secretHeartMessage"
+          class="secret-heart-message"
+          aria-live="polite"
+        >
+          My favourite little thing?
+          <strong>Having you in my life.</strong>
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 7 — A LETTER FOR YOU
+         ======================================================= -->
+
+    <section
+      id="page-7"
+      class="page letter-page"
+      data-page="7"
+      aria-label="A Letter For You"
+    >
+
+      <div class="page-background letter-background"></div>
+
+      <div class="warm-paper-glow" aria-hidden="true"></div>
+
+      <div class="cinematic-content letter-content">
+
+        <p class="chapter-label">
+          07 / 12
+        </p>
+
+        <p class="eyebrow">
+          A LETTER FOR YOU
+        </p>
+
+        <h2>
+          Some things are easier<br>
+          to write than to say.
+        </h2>
+
+
+        <div
+          id="envelope"
+          class="envelope"
+          role="button"
+          tabindex="0"
+          aria-label="Open the letter" aria-expanded="false"
+        >
+
+          <div class="envelope-back"></div>
+
+          <div class="envelope-paper">
+
+            <p class="paper-to">
+              TO BUBU
+            </p>
+
+            <p class="paper-from">
+              FROM K
+            </p>
+
+            <p class="paper-date">
+              11 • 01 • 2027
+            </p>
+
+          </div>
+
+          <div class="envelope-flap"></div>
+
+          <div class="envelope-seal">
+            K <span>&amp;</span> K
+          </div>
+
+        </div>
+
+
+        <p
+          id="letterHint"
+          class="letter-hint"
+        >
+          Tap the envelope to open it.
+        </p>
+
+
+        <article
+          id="loveLetter"
+          class="love-letter"
+          aria-hidden="true"
+        >
+
+          <div class="letter-paper">
+
+            <p class="letter-date">
+              11 January 2027
+            </p>
+
+            <h3>
+              Dear Bubu,
+            </h3>
+
+            <p>
+              One year sounds like a simple number until I look
+              at everything that happened inside it.
+              Then it stops feeling like a number and starts
+              feeling like a whole little world.
+            </p>
+
+            <p>
+              A world that started with us finding our way
+              back to each other, and then somehow becoming
+              something neither of us could have completely
+              imagined.
+            </p>
+
+            <p>
+              I still think about that night.
+              11 January 2026.
+              Around 1 AM, when a simple question turned into
+              the beginning of us.
+            </p>
+
+            <p>
+              And then, at 1:33 AM, you gave me those words
+              that I don't think I'll ever forget.
+              That was the moment everything changed.
+            </p>
+
+            <p>
+              Our first year wasn't perfect.
+              We had beautiful days, but we had difficult ones too.
+              We fought. We cried. We misunderstood each other.
+              Sometimes circumstances made things harder than
+              either of us wanted.
+            </p>
+
+            <p>
+              But somehow, again and again, we found our way
+              back to each other.
+              And I think that is one of the most beautiful things
+              about our story.
+            </p>
+
+            <p>
+              I remember the difficult day on 26 January,
+              and how you were there for me.
+              I remember the late-night conversations,
+              the long calls, the moments when we laughed for
+              no reason, and the times when simply talking to
+              you made an ordinary day feel different.
+            </p>
+
+            <p>
+              I remember the days when we missed each other,
+              the days when communication became difficult,
+              and the days when we had to learn how to understand
+              each other again.
+            </p>
+
+            <p>
+              And I remember 8 August too —
+              meeting again, hugging, laughing,
+              taking pictures, and having a day that felt
+              beautifully simple.
+            </p>
+
+            <p>
+              Somewhere along the way, we didn't just collect
+              memories.
+              We grew.
+              We learned.
+              We became closer.
+              We shared deeply personal moments,
+              and we learned that being close also means
+              respecting each other's feelings and boundaries.
+            </p>
+
+            <p>
+              Bubu, I don't want to promise you a perfect future,
+              because I don't know what every tomorrow will look like.
+            </p>
+
+            <p>
+              But I can promise to keep trying.
+              To listen when you need to be heard.
+              To communicate instead of letting silence become
+              a wall.
+              To respect your feelings, your boundaries,
+              and your dreams.
+              To learn from my mistakes instead of repeating them.
+            </p>
+
+            <p>
+              I promise to keep appreciating the little things —
+              the conversations, the laughter, the random moments,
+              the quiet moments, and all the tiny pieces of life
+              that somehow became our memories.
+            </p>
+
+            <p>
+              I don't know exactly where life will take us.
+              But I know that this first year will always be
+              one of the most meaningful chapters of my life.
+            </p>
+
+            <p>
+              And if I could go back to the beginning,
+              knowing everything that was waiting for us —
+              every beautiful moment, every difficult one,
+              every laugh, every tear, every lesson —
+              I would still choose this story.
+            </p>
+
+            <p class="letter-emphasis">
+              And I would still choose you.
+            </p>
+
+            <p>
+              One year down.
+              So much more left to write.
+            </p>
+
+            <p class="letter-signoff">
+              Happy First Anniversary, Bubu.
+            </p>
+
+            <p class="letter-final">
+              Always keep a little space in your heart
+              for all the memories we haven't made yet.
+            </p>
+
+            <p class="letter-signature">
+              K
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 8 — PROMISES
+         ======================================================= -->
+
+    <section
+      id="page-8"
+      class="page"
+      data-page="8"
+      aria-label="Promises"
+    >
+
+      <div class="page-background promises-background"></div>
+
+      <div class="promise-stars" aria-hidden="true"></div>
+
+      <div class="cinematic-content promises-content">
+
+        <p class="chapter-label">
+          08 / 12
+        </p>
+
+        <p class="eyebrow">
+          PROMISES
+        </p>
+
+        <h2>
+          Not perfect promises.<br>
+          Real ones.
+        </h2>
+
+
+        <div class="promises-grid">
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              01
+            </span>
+
+            <span class="promise-icon">◌</span>
+
+            <h3>
+              To Listen
+            </h3>
+
+            <p>
+              I promise to listen to you —
+              not just when things are easy,
+              but especially when they're not.
+            </p>
+
+          </article>
+
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              02
+            </span>
+
+            <span class="promise-icon">✧</span>
+
+            <h3>
+              To Understand
+            </h3>
+
+            <p>
+              I promise to try to understand your heart
+              before I try to defend mine.
+            </p>
+
+          </article>
+
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              03
+            </span>
+
+            <span class="promise-icon">∞</span>
+
+            <h3>
+              To Communicate
+            </h3>
+
+            <p>
+              When something hurts,
+              I promise to choose a conversation
+              over silence.
+            </p>
+
+          </article>
+
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              04
+            </span>
+
+            <span class="promise-icon">♡</span>
+
+            <h3>
+              To Respect
+            </h3>
+
+            <p>
+              I promise to respect your feelings,
+              your boundaries, your dreams,
+              and the person you are becoming.
+            </p>
+
+          </article>
+
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              05
+            </span>
+
+            <span class="promise-icon">↑</span>
+
+            <h3>
+              To Grow
+            </h3>
+
+            <p>
+              I don't promise that I'll never make mistakes.
+              I promise to learn from them and become better.
+            </p>
+
+          </article>
+
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              06
+            </span>
+
+            <span class="promise-icon">K</span>
+
+            <h3>
+              To Choose Us
+            </h3>
+
+            <p>
+              When things get difficult,
+              I promise to remember that we are
+              on the same side.
+            </p>
+
+          </article>
+
+
+          <article class="promise-card">
+
+            <span class="promise-number">
+              07
+            </span>
+
+            <span class="promise-icon">♥</span>
+
+            <h3>
+              To Keep The Little Things
+            </h3>
+
+            <p>
+              I promise never to stop appreciating
+              the little moments that made this first year ours.
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <div class="special-promise">
+
+          <span class="special-promise-line"></span>
+
+          <p>
+            I promise to never take your place in my life
+            for granted.
+          </p>
+
+          <span class="special-promise-line"></span>
+
+        </div>
+
+
+        <button
+          id="hiddenPromiseBtn"
+          class="hidden-promise-button"
+          type="button"
+        >
+          One more promise…
+        </button>
+
+        <p
+          id="hiddenPromiseText"
+          class="hidden-promise-text"
+        >
+          Even after all the big promises are forgotten,
+          I hope we never forget how to make each other smile.
+        </p>
+
+
+        <div class="keep-choosing">
+          KEEP CHOOSING US.
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 9 — OUR FUTURE
+         ======================================================= -->
+
+    <section
+      id="page-9"
+      class="page"
+      data-page="9"
+      aria-label="Our Future"
+    >
+
+      <div class="page-background future-background"></div>
+
+      <div class="future-stars" aria-hidden="true"></div>
+
+      <div class="cinematic-content future-content">
+
+        <p class="chapter-label">
+          09 / 12
+        </p>
+
+        <p class="eyebrow">
+          OUR FUTURE
+        </p>
+
+        <h2>
+          There is still so much<br>
+          left to write.
+        </h2>
+
+        <p class="section-subtitle">
+          Some parts of our future haven't been written yet.
+          And maybe that's okay.
+        </p>
+
+
+        <div class="future-cards">
+
+          <article class="future-card">
+            <span>01</span>
+            <h3>More Ordinary Days</h3>
+            <p>
+              Because ordinary days with the right person
+              don't feel ordinary anymore.
+            </p>
+          </article>
+
+          <article class="future-card">
+            <span>02</span>
+            <h3>More Late Nights</h3>
+            <p>
+              More conversations, more laughter,
+              more moments that make time disappear.
+            </p>
+          </article>
+
+          <article class="future-card">
+            <span>03</span>
+            <h3>More Reasons To Laugh</h3>
+            <p>
+              More random moments that become
+              favourite memories.
+            </p>
+          </article>
+
+          <article class="future-card">
+            <span>04</span>
+            <h3>Growing Together</h3>
+            <p>
+              Becoming better people while still
+              making space for each other.
+            </p>
+          </article>
+
+          <article class="future-card">
+            <span>05</span>
+            <h3>New Memories</h3>
+            <p>
+              New places, new days, new stories,
+              and moments we haven't imagined yet.
+            </p>
+          </article>
+
+          <article class="future-card">
+            <span>06</span>
+            <h3>Choosing Each Other</h3>
+            <p>
+              Not because every day is easy,
+              but because every chapter is worth writing.
+            </p>
+          </article>
+
+        </div>
+
+
+        <div class="future-timeline">
+
+          <div class="future-step active">
+            <span></span>
+            <p>TODAY</p>
+          </div>
+
+          <div class="future-step">
+            <span></span>
+            <p>NEXT CHAPTER</p>
+          </div>
+
+          <div class="future-step">
+            <span></span>
+            <p>SOMEDAY</p>
+          </div>
+
+          <div class="future-step">
+            <span></span>
+            <p>THE YEARS AHEAD</p>
+          </div>
+
+        </div>
+
+
+        <div class="future-final">
+
+          <p>
+            I don't know exactly where life will take us.
+          </p>
+
+          <strong>
+            But I know I want to keep making beautiful
+            memories along the way.
+          </strong>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+        <!-- =======================================================
+         PAGE 10 — MEMORY CAPSULE
+         ======================================================= -->
+
+    <section
+      id="page-10"
+      class="page"
+      data-page="10"
+      aria-label="Memory Capsule"
+    >
+
+      <div class="page-background capsule-background"></div>
+
+      <div class="capsule-particles" aria-hidden="true"></div>
+
+      <div class="cinematic-content capsule-content">
+
+        <p class="chapter-label">
+          10 / 12
+        </p>
+
+        <p class="eyebrow">
+          MEMORY CAPSULE
+        </p>
+
+        <h2>
+          For the version of us<br>
+          who will look back someday.
+        </h2>
+
+        <div
+          id="memoryCapsule"
+          class="memory-capsule"
+          role="button"
+          tabindex="0"
+          aria-label="Open the memory jar" aria-expanded="false"
+        >
+
+          <div class="capsule-glow"></div>
+
+          <div class="capsule-glass">
+
+            <div class="capsule-top"></div>
+
+            <div class="capsule-core">
+              <span class="capsule-letter">K</span>
+              <span class="capsule-amp">&amp;</span>
+              <span class="capsule-letter">K</span>
+            </div>
+
+            <div class="capsule-bottom"></div>
+
+          </div>
+
+          <div class="capsule-ring ring-a"></div>
+          <div class="capsule-ring ring-b"></div>
+
+        </div>
+
+        <p
+          id="capsuleHint"
+          class="capsule-hint"
+        >
+          Tap the little memory jar to open it.
+        </p>
+
+
+        <div
+          id="capsuleFragments"
+          class="capsule-fragments"
+          aria-hidden="true"
+        >
+
+          <article class="capsule-fragment">
+            <span>01</span>
+            <h3>THE BEGINNING</h3>
+            <small>11 • 01 • 2026</small>
+            <p>The night everything changed.</p>
+          </article>
+
+          <article class="capsule-fragment">
+            <span>02</span>
+            <h3>THE FIRST HUG</h3>
+            <small>26 • 01</small>
+            <p>
+              A difficult day, and the moment
+              you were there to comfort me.
+            </p>
+          </article>
+
+          <article class="capsule-fragment">
+            <span>03</span>
+            <h3>THE LATE NIGHTS</h3>
+            <small>OUR FIRST YEAR</small>
+            <p>
+              When everyone else was asleep,
+              we were still finding reasons to talk.
+            </p>
+          </article>
+
+          <article class="capsule-fragment">
+            <span>04</span>
+            <h3>HER BIRTHDAY</h3>
+            <small>08 • 08</small>
+            <p>
+              Meeting again, laughing,
+              hugging, and simply being happy together.
+            </p>
+          </article>
+
+          <article class="capsule-fragment">
+            <span>05</span>
+            <h3>THROUGH THE HARD DAYS</h3>
+            <small>OUR JOURNEY</small>
+            <p>
+              The fights didn't define us.
+              What mattered was finding our way back.
+            </p>
+          </article>
+
+          <article class="capsule-fragment">
+            <span>06</span>
+            <h3>ONE YEAR</h3>
+            <small>11 • 01 • 2027</small>
+            <p>
+              365 days later…
+              still us.
+            </p>
+          </article>
+
+        </div>
+
+
+        <button
+          id="sealCapsuleBtn"
+          class="primary-button capsule-button"
+          type="button"
+        >
+          <span>Seal Our First Year</span>
+          <strong>→</strong>
+        </button>
+
+
+        <div
+          id="capsuleSecret"
+          class="capsule-secret"
+          aria-live="polite"
+        >
+          <p>
+            If you ever miss this version of us…
+          </p>
+
+          <strong>
+            Come back here.
+          </strong>
+
+          <span>
+            We'll always have this moment.
+          </span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 11 — ONE LAST MESSAGE
+         ======================================================= -->
+
+    <section
+      id="page-11"
+      class="page last-message-page"
+      data-page="11"
+      aria-label="One Last Message"
+    >
+
+      <div class="page-background final-message-background"></div>
+
+      <div class="silence-star" aria-hidden="true"></div>
+
+      <div class="cinematic-content last-message-content">
+
+        <p class="chapter-label">
+          11 / 12
+        </p>
+
+        <p class="eyebrow">
+          ONE LAST MESSAGE
+        </p>
+
+        <h2>
+          Before our sky lights up.
+        </h2>
+
+
+        <div
+          id="finalMessageSequence"
+          class="final-message-sequence"
+        >
+
+          <p data-message-line>
+            Before the sky lights up, there's one thing I want you to know.
+          </p>
+
+          <p data-message-line>
+            This year wasn't perfect. We had beautiful days, difficult days,
+            laughter, misunderstandings, and moments that taught us to listen.
+          </p>
+
+          <p data-message-line>
+            Through every little moment, you became an important part of my story.
+          </p>
+
+          <p data-message-line>
+            Thank you for the conversations, the memories, the comfort,
+            and every time we tried to understand each other.
+          </p>
+
+          <p data-message-line class="message-emphasis">
+            If I could begin this year again, knowing everything,
+            I would still choose this story.
+          </p>
+
+          <p data-message-line class="message-big">
+            I WOULD STILL CHOOSE YOU.
+          </p>
+
+          <p data-message-line class="message-anniversary">
+            Happy First Anniversary, Bubu.
+          </p>
+
+        </div>
+
+
+        <button
+          id="lightSkyBtn"
+          class="primary-button final-message-button"
+          type="button"
+        >
+          <span>Light Up Our Sky</span>
+          <strong>→</strong>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         PAGE 12 — OUR SKY / GRAND FINALE
+         ======================================================= -->
+
+    <section
+      id="page-12"
+      class="page finale-page"
+      data-page="12"
+      aria-label="Our Sky Grand Finale"
+    >
+
+      <div
+        id="finaleBackground"
+        class="page-background finale-background"
+      ></div>
+
+
+      <!-- Procedural Canvas Fireworks -->
+      <canvas
+        id="fireworksCanvas"
+        class="fireworks-canvas"
+        aria-hidden="true"
+      ></canvas>
+
+      <div id="fireworkLoveBurst" class="firework-love-burst" aria-live="polite" aria-hidden="true">
+        <span>I LOVE YOU</span>
+        <small>always, Bubu</small>
+      </div>
+
+      <div
+        id="finaleAurora"
+        class="finale-aurora"
+        aria-hidden="true"
+      ></div>
+
+
+      <div
+        id="finaleStars"
+        class="finale-stars"
+        aria-hidden="true"
+      ></div>
+
+
+      <div class="finale-content">
+
+        <p class="chapter-label finale-chapter">
+          12 / 12
+        </p>
+
+        <p class="eyebrow finale-eyebrow">
+          OUR SKY
+        </p>
+
+
+        <div
+          id="finaleReady"
+          class="finale-ready"
+        >
+          Ready?
+        </div>
+
+
+        <div
+          id="finaleText"
+          class="finale-text"
+          aria-live="polite"
+        >
+
+          <p id="finalLineOne" class="finale-message">
+            ONE YEAR.
+          </p>
+
+          <p id="finalLineTwo" class="finale-message">
+            COUNTLESS MEMORIES.
+          </p>
+
+          <p id="finalLineThree" class="finale-message">
+            A THOUSAND LITTLE MOMENTS.
+          </p>
+
+          <p id="finalLineFour" class="finale-message">
+            AND A STORY STILL BEING WRITTEN.
+          </p>
+
+          <p
+            id="finalLineFive"
+            class="final-love-line finale-message"
+          >
+            HAPPY 1ST ANNIVERSARY, BUBU ♥
+          </p>
+
+          <p
+            id="finalDate"
+            class="final-date finale-message"
+          >
+            11 • 01 • 2027
+          </p>
+
+          <p
+            id="finalChoice"
+            class="final-choice finale-message"
+          >
+            If I could live this year all over again…
+          </p>
+
+          <strong
+            id="finalChoiceAnswer"
+            class="final-choice-answer finale-message"
+          >
+            I'd still choose you.
+          </strong>
+
+        </div>
+
+
+        <div
+          id="finalKK"
+          class="final-kk"
+        >
+          I LOVE YOU
+        </div>
+
+
+        <div
+          id="finalEnd"
+          class="final-end"
+        >
+
+          <h2>
+            I LOVE YOU, BUBU.
+          </h2>
+
+          <p>
+            ONE YEAR OF MEMORIES. A LIFETIME OF LITTLE MOMENTS AHEAD.
+          </p>
+
+          <span>
+            11 • 01 • 2027
+          </span>
+
+          <strong>
+            Happy Anniversary, Bubu.
+          </strong>
+
+          <small>
+            THE END.
+          </small>
+
+        </div>
+
+
+        <button
+          id="replayFinaleBtn"
+          class="replay-button"
+          type="button"
+        >
+          Replay Finale
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================
+       GLOBAL UI
+       ========================================================= -->
+
+  <div
+    id="toast"
+    class="toast"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <div
+    id="transitionLayer"
+    class="transition-layer"
+    aria-hidden="true"
+  >
+    <div class="transition-glow"></div>
+  </div>
+
+
+  <!-- =========================================================
+       NAVIGATION
+       ========================================================= -->
+
+  <nav
+    id="siteNavigation"
+    class="site-navigation"
+    aria-label="Story navigation"
+  >
+
+    <button
+      id="prevBtn"
+      class="nav-button nav-prev"
+      type="button"
+      aria-label="Previous chapter"
+    >
+      <span>←</span>
+      <small>Back</small>
+    </button>
+
+
+    <div
+      id="chapterIndicator"
+      class="chapter-indicator"
+      aria-label="Current chapter"
+    >
+
+      <span id="currentChapter">
+        01
+      </span>
+
+      <i>/</i>
+
+      <span>
+        12
+      </span>
+
+    </div>
+
+
+    <button
+      id="nextBtn"
+      class="nav-button nav-next"
+      type="button"
+      aria-label="Next chapter"
+    >
+      <small>Continue</small>
+      <span>→</span>
+    </button>
+
+  </nav>
+
+
+  <!-- =========================================================
+       MUSIC CONTROL
+       ========================================================= -->
+
+  <button
+    id="musicControl"
+    class="music-control"
+    type="button"
+    aria-label="Toggle background music"
+    aria-pressed="false"
+  >
+
+    <span class="music-icon">
+      ♪
+    </span>
+
+    <span
+      class="music-bars"
+      aria-hidden="true"
+    >
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+
+  </button>
+
+
+  <!-- =========================================================
+       NOSCRIPT
+       ========================================================= -->
+
+  <noscript>
+
+    <div
+      style="
+        position:fixed;
+        inset:0;
+        z-index:99999;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:24px;
+        background:#05050d;
+        color:#fff;
+        text-align:center;
+        font-family:Arial,sans-serif;
+      "
+    >
+      This experience needs JavaScript enabled.
+    </div>
+
+  </noscript>
+
+
+  <!-- =========================================================
+       MAIN JAVASCRIPT
+       ========================================================= -->
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
